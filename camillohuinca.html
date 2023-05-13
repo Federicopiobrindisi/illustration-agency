@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="timlahan-style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title">Illustration agency</h1>
+        <ul class="nav">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+            <li><a class="nav-link" href="about.html">About</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="title">
+            <div class="title-1">
+                <h1 id="t-1">Camillo Huinca</h1>
+                <h2 id="t-2">Gallery</h2>
+            </div>
+            <a href="#link" id="t-3">information</a>
+        </div>
+
+
+        <div class="gallery">
+            <img class="resize" id="myImg1" src="img/Camillo Huinca's/1.png" alt="Illustrazione 1">
+            <img class="resize" id="myImg2" src="img/Camillo Huinca's/2.png" alt="Illustrazione 2">
+            <img class="resize" id="myImg3" src="img/Camillo Huinca's/3.png" alt="Illustrazione 2">
+            <img class="resize" id="myImg4" src="img/Camillo Huinca's/4.png" alt="Illustrazione 2">
+            <img class="resize" id="myImg5" src="img/Camillo Huinca's/5.png" alt="Illustrazione 2">
+            <img class="resize" id="myImg6" src="img/Camillo Huinca's/6.png" alt="Illustrazione 2">
+        </div>
+
+        <div id="myModal1" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+        </div>
+
+        <div id="myModal2" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img02">
+        </div>
+
+        <div id="myModal3" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img03">
+        </div>
+
+        <div id="myModal4" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img04">
+        </div>
+
+        <div id="myModal5" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img05">
+        </div>
+
+        <div id="myModal6" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img06">
+        </div>
+
+
+        <div class="bio">
+            <h2 class="bio-h" id="link">Who is Camillo Huinca ?</h2>
+
+            <div class="bio-p">
+                <p>Camilo Huinca's work is rich with colour, content and a brightly illustrated narrative that speaks
+                    for itself. Born and raised in Santiago in Chile, Camilo has divided his career between graphic
+                    design and painting.</p>
+
+                <p>Working independently has allowed Camilo to “develop (his) own style, having a main focus on the use
+                    of curiosity,” he explains. In 2014 Camilo set up Perfe Studio where he concentrates on graphic
+                    design projects in “a more commercial way”.</p>
+
+                <p>However, within illustration, he described his main motivation as, “to be able to generate a
+                    communication method based on simplicity and synthesis, with few tools and colours. I am interested
+                    in identifying people’s behaviour, portraying activities, intimate moments, body gestures,
+                    disfiguring objects and reducing the amount of detail in a composition.”</p>
+
+                <p>Camilo is fascinated by everyday scenes, moments and personal habits, often depicting scenic bus
+                    routes, art galleries and public figures in his own psychedelically shaped style.</p>
+
+                <p>“Within my work I try to reproduce real moments from an innocent and impartial perspective.”</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="icon">
+            <img src="img/Icon/Frame.svg" alt="" style="max-width: 53px;">
+            <img src="img/Icon/Frame-1.svg" alt="" style="max-width: 53px;">
+            <img src="img/Icon/Frame-2.svg" alt="" style="max-width: 53px;">
+            <img src="img/Icon/Frame-3.svg" alt="" style="max-width: 53px;">
+            <img src="img/Icon/Frame-4.svg" alt="" style="max-width: 53px;">
+            <img src="img/Icon/Frame-5.svg" alt="" style="max-width: 53px;">
+        </div>
+
+        <div class="footer-info">
+            <h2>Illustration agency
+                <p>© 2023 Elde.IS.theBest.SRL - Sede legale: Via della vendetta 26 - 2626 Lasagna (LA) Isekaiworld</p>
+            </h2>
+        </div>
+
+    </footer>
+
+    <script>
+        var modal = document.getElementById("myModal1");
+
+        var img = document.getElementById("myImg1");
+        var modalImg = document.getElementById("img01");
+        img.onclick = function () {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        }
+
+        var modal = document.getElementById("myModal2");
+
+        var img = document.getElementById("myImg2");
+        var modalImg = document.getElementById("img02");
+        img.onclick = function () {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        }
+
+        var modal = document.getElementById("myModal3");
+
+        var img = document.getElementById("myImg3");
+        var modalImg = document.getElementById("img03");
+        img.onclick = function () {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        }
+
+        var modal = document.getElementById("myModal4");
+
+        var img = document.getElementById("myImg4");
+        var modalImg = document.getElementById("img04");
+        img.onclick = function () {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        }
+
+        var modal = document.getElementById("myModal5");
+
+        var img = document.getElementById("myImg5");
+        var modalImg = document.getElementById("img05");
+        img.onclick = function () {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        }
+
+        var modal = document.getElementById("myModal6");
+
+        var img = document.getElementById("myImg6");
+        var modalImg = document.getElementById("img06");
+        img.onclick = function () {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        var span = document.getElementsByClassName("close")[0];
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>

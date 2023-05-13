@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="timlahan-style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title">Illustration agency</h1>
+        <ul class="nav">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+            <li><a class="nav-link" href="about.html">About</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="title">
+            <div class="title-1">
+                <h1 id="t-1">Xoana Herrera</h1>
+                <h2 id="t-2">Gallery</h2>
+            </div>
+            <a href="#link" id="t-3">information</a>
+        </div>
+
+
+        <div class="gallery">
+            <img class="resize" id="myImg1" src="img/Xoana Errera/1.png" alt="Illustrazione 1">
+            <img class="resize" id="myImg2" src="img/Xoana Errera/2.png" alt="Illustrazione 2">
+            <img class="resize" id="myImg3" src="img/Xoana Errera/3.png" alt="Illustrazione 2">
+            <img class="resize" id="myImg4" src="img/Xoana Errera/4.png" alt="Illustrazione 2">
+            <img class="resize" id="myImg5" src="img/Xoana Errera/5.png" alt="Illustrazione 2">
+            <img class="resize" id="myImg6" src="img/Xoana Errera/6.png" alt="Illustrazione 2">
+            <img class="resize" id="myImg7" src="img/Xoana Errera/7.png" alt="Illustrazione 2">
+            <img class="resize" id="myImg8" src="img/Xoana Errera/8.png" alt="Illustrazione 2">
+            <img class="resize" id="myImg9" src="img/Xoana Errera/9.png" alt="Illustrazione 2">
+        </div>
+
+        <div id="myModal1" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+        </div>
+
+        <div id="myModal2" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img02">
+        </div>
+
+        <div id="myModal3" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img03">
+        </div>
+
+        <div id="myModal4" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img04">
+        </div>
+
+        <div id="myModal5" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img05">
+        </div>
+
+        <div id="myModal6" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img06">
+        </div>
+
+        <div id="myModal7" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img07">
+        </div>
+
+        <div id="myModal8" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img08">
+        </div>
+
+        <div id="myModal9" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img09">
+        </div>
+
+
+        <div class="bio">
+            <h2 class="bio-h" id="link">Who is Xoana Herrera ?</h2>
+
+            <div class="bio-p">
+                <p>
+                    The portfolio of LA-based illustrator Xoana Herrera is an explosion of sumptuous, stylish character
+                    scenes dwelling in a world that, frankly, looks ideal.
+                </p>
+
+                <p>
+                    Xoana trained as a graphic designer in Argentina but over time found herself drawn to the world of
+                    illustration after a five-year stint at Buck agency.
+                </p>
+
+                <p>
+                    Now, alongside founding a feminist creative collective, Get it Girl, she creates graceful, complex
+                    and accessible imagery which would be as at home in an ad campaign as it would be in a children’s
+                    book (which she's quite keen to try soon).
+                </p>
+
+                <p>
+                    “As an artist I think it is up to us to keep evolving and taking creative decisions,” she says.
+                    “Aiming to be innovative is something I feel I can dare to try every time I take a job, and that’s
+                    amazing.”
+                </p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="icon">
+            <img src="img/Icon/Frame.svg" alt="" style="max-width: 53px;">
+            <img src="img/Icon/Frame-1.svg" alt="" style="max-width: 53px;">
+            <img src="img/Icon/Frame-2.svg" alt="" style="max-width: 53px;">
+            <img src="img/Icon/Frame-3.svg" alt="" style="max-width: 53px;">
+            <img src="img/Icon/Frame-4.svg" alt="" style="max-width: 53px;">
+            <img src="img/Icon/Frame-5.svg" alt="" style="max-width: 53px;">
+        </div>
+
+        <div class="footer-info">
+            <h2>Illustration agency
+                <p>© 2023 Elde.IS.theBest.SRL - Sede legale: Via della vendetta 26 - 2626 Lasagna (LA) Isekaiworld</p>
+            </h2>
+        </div>
+
+    </footer>
+
+    <script>
+        var modal = document.getElementById("myModal1");
+
+        var img = document.getElementById("myImg1");
+        var modalImg = document.getElementById("img01");
+        img.onclick = function () {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        }
+
+        var modal = document.getElementById("myModal2");
+
+        var img = document.getElementById("myImg2");
+        var modalImg = document.getElementById("img02");
+        img.onclick = function () {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        }
+
+        var modal = document.getElementById("myModal3");
+
+        var img = document.getElementById("myImg3");
+        var modalImg = document.getElementById("img03");
+        img.onclick = function () {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        }
+
+        var modal = document.getElementById("myModal4");
+
+        var img = document.getElementById("myImg4");
+        var modalImg = document.getElementById("img04");
+        img.onclick = function () {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        }
+
+        var modal = document.getElementById("myModal5");
+
+        var img = document.getElementById("myImg5");
+        var modalImg = document.getElementById("img05");
+        img.onclick = function () {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        }
+
+        var modal = document.getElementById("myModal6");
+
+        var img = document.getElementById("myImg6");
+        var modalImg = document.getElementById("img06");
+        img.onclick = function () {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        }
+
+        var modal = document.getElementById("myModal7");
+
+        var img = document.getElementById("myImg7");
+        var modalImg = document.getElementById("img07");
+        img.onclick = function () {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        }
+
+        var modal = document.getElementById("myModal8");
+
+        var img = document.getElementById("myImg8");
+        var modalImg = document.getElementById("img08");
+        img.onclick = function () {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        }
+
+        var modal = document.getElementById("myModal9");
+
+        var img = document.getElementById("myImg9");
+        var modalImg = document.getElementById("img09");
+        img.onclick = function () {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        }
+
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        var span = document.getElementsByClassName("close")[0];
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>
